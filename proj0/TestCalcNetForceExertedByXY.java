@@ -51,7 +51,7 @@ public class TestCalcNetForceExertedByXY {
         Planet p3 = new Planet(4.0, 5.0, 3.0, 4.0, 5.0, "jupiter.gif");
         Planet p4 = new Planet(3.0, 2.0, 3.0, 4.0, 5.0, "jupiter.gif");
 
-        Planet[] planets = {p2, p3, p4};
+        Planet[] planets = {p1, p2, p3, p4};
 
         double xNetForce = p1.calcNetForceExertedByX(planets);
         double yNetForce = p1.calcNetForceExertedByY(planets);
